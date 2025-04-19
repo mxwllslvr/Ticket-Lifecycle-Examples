@@ -33,7 +33,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The **Intake** stage begins when a user submits a ticket through the osTicket web portal, email, or agent-created tickets on behalf of users. Users access the osTicket client portal (e.g., http://yourdomain.com/support) and fill out a ticket form, providing details such as their name, email, issue category, and a description of the problem. Upon submission, osTicket automatically generates a unique ticket number and assigns the ticket to the appropriate department based on predefined help topics or routing rules. Agents can view new tickets in the osTicket dashboard under the "Open Tickets" queue. Email notifications are sent to both the user and relevant agents, ensuring visibility of the new ticket.
+The **Intake** stage begins when a user submits a ticket through the osTicket web portal, email, or agent-created tickets on behalf of users. Users access the osTicket client portal (e.g., <a>http://yourdomain.com/support</a>) and fill out a ticket form, providing details such as their name, email, issue category, and a description of the problem. Upon submission, osTicket automatically generates a unique ticket number and assigns the ticket to the appropriate department based on predefined help topics or routing rules. Agents can view new tickets in the osTicket dashboard under the "Open Tickets" queue. Email notifications are sent to both the user and relevant agents, ensuring visibility of the new ticket.
 </p>
 <br />
 
