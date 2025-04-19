@@ -30,7 +30,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>Lifecycle Stages</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CWMK5H9.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The **Intake** stage begins when a user submits a ticket through the osTicket web portal, email, or agent-created tickets on behalf of users. Users access the osTicket client portal (e.g., <a>http://yourdomain.com/support</a>) and fill out a ticket form, providing details such as their name, email, issue category, and a description of the problem. Upon submission, osTicket automatically generates a unique ticket number and assigns the ticket to the appropriate department based on predefined help topics or routing rules. Agents can view new tickets in the osTicket dashboard under the "Open Tickets" queue. Email notifications are sent to both the user and relevant agents, ensuring visibility of the new ticket.
@@ -38,7 +38,7 @@ The **Intake** stage begins when a user submits a ticket through the osTicket we
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vhtvIfc.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In the **Assignment and Communication** stage, an agent or team lead reviews the ticket in the osTicket dashboard and assigns it to the appropriate agent or team based on expertise or workload. This is done by navigating to the ticket, selecting "Assign To," and choosing an agent or department. Agents communicate with the user through the ticket's internal thread, posting replies that are emailed to the user or viewable in the client portal. Internal notes can be added for agent-only collaboration. osTicket’s SLA (Service Level Agreement) settings may trigger alerts if the ticket remains unassigned or unresolved beyond a set time, ensuring timely action. Users can respond via email or the portal, and all interactions are logged in the ticket history.
@@ -46,7 +46,7 @@ In the **Assignment and Communication** stage, an agent or team lead reviews the
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7lRbhgX.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 During the **Working the Issue** and **Resolution** stages, the assigned agent investigates the reported issue, using the ticket details and any follow-up communication with the user. The agent may update the ticket status (e.g., "In Progress") and post internal notes or replies to document progress. For example, if the ticket involves a software issue, the agent might replicate the problem, apply a fix, or escalate to a higher-tier team. Once resolved, the agent posts a final reply to the user, detailing the solution, and closes the ticket via the "Close" option in osTicket. If the user responds with further issues, the ticket can be reopened. Closed tickets are archived but remain accessible in the "Closed Tickets" queue for reference or reporting.
